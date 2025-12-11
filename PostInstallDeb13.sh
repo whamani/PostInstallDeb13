@@ -46,11 +46,11 @@ echo "
 # umask 022
 
 # You may uncomment the following lines if you want `ls' to be colorized:
- export LS_OPTIONS='--color=auto'
- eval "$(dircolors)"
- alias ls='ls $LS_OPTIONS'
- alias ll='ls $LS_OPTIONS -l'
- alias l='ls $LS_OPTIONS -lA'
+#cexport LS_OPTIONS='--color=auto'
+# eval "$(dircolors)"
+# alias ls='ls $LS_OPTIONS'
+# alias ll='ls $LS_OPTIONS -l'
+# alias l='ls $LS_OPTIONS -lA'
 #
 # Some more alias to avoid making mistakes:
 # alias rm='rm -i'
@@ -61,7 +61,7 @@ export LS_OPTIONS='--color=auto'
 eval LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42>
 alias ls='ls --color=auto'
 alias ll='ls --color=auto -l'
-alias l='ls --color=auto -lA' " > /root/.bashrc
+alias l='ls --color=auto -lA' " >> /root/.bashrc
 
 #==================================================================#
 # Install Webmin
